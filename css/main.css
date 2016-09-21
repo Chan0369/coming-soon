@@ -18,7 +18,7 @@ body {
 }
 
 html {
-  background-image: url("../images/profile-pic.jpg") no-repeat center top;
+  background-image: url("../images/profile-pic.jpg");
 }
 
 .name {
@@ -30,17 +30,13 @@ html {
 
 .background-color {
   position: relative;
-  background-color: #9cf2e2;
+  background: rgba(93, 195, 176, 0.5);
   margin-left: 15%;
   margin-right: 15%;
   padding-top: 60%;
   padding-bottom: 100%;
   padding-left: 10%;
   padding-right: 10%;
-}
-
-img {
-  width: 110%
 }
 
 h1 {
@@ -73,26 +69,30 @@ hr {
   margin-top: 0;
 }
 
+.icons {
+  position: absolute;
+}
+
 .link {
   display: inline-block;
   float: left;
-  width: 10%;
+  width: 20%;
 }
 
 .behance {
   display: inline-block;
   float: left;
-  width: 10%;
+  width: 20%;
 }
 
 .insta {
   display: inline-block;
   float: left;
-  width: 10%;
+  width: 20%;
 }
 
 .twitter {
   display: inline-block;
   float: left;
-  width: 10%;
+  width: 20%;
 }
