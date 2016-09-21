@@ -72,3 +72,27 @@ hr {
 .phone {
   margin-top: 0;
 }
+
+.link {
+  display: inline-block;
+  float: left;
+  width: 10%;
+}
+
+.behance {
+  display: inline-block;
+  float: left;
+  width: 10%;
+}
+
+.insta {
+  display: inline-block;
+  float: left;
+  width: 10%;
+}
+
+.twitter {
+  display: inline-block;
+  float: left;
+  width: 10%;
+}
