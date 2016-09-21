@@ -11,3 +11,18 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  background-color: #52ccb4;
+  margin: 0 5em 0 5em;
+  padding-top: 5em;
+  padding-bottom: 1em;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  color: white;
+}
