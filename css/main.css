@@ -17,12 +17,58 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
+html {
+  background-image: url("../images/profile-pic.jpg") no-repeat center top;
+}
+
+.name {
+  position: absolute;
+  top: 1.5em;
+  left: 1.5em;
+  width: 85%;
+}
+
+.background-color {
+  position: relative;
+  background-color: #9cf2e2;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 60%;
+  padding-bottom: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+img {
+  width: 110%
+}
+
 h1 {
-  background-color: #52ccb4;
-  margin: 0 5em 0 5em;
-  padding-top: 5em;
-  padding-bottom: 1em;
-  font-family: 'Work Sans', sans-serif;
   text-align: center;
   color: white;
+  font-size: 1.5em;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 0.75em;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    border-style: solid;
+    color: white;
+    width: 30%;
+}
+
+.email {
+  margin-bottom: 0;
+}
+
+.phone {
+  margin-top: 0;
 }
