@@ -34,9 +34,6 @@ html {
   margin-left: 15%;
   margin-right: 15%;
   padding-top: 60%;
-  padding-bottom: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 h1 {
@@ -49,6 +46,8 @@ p {
   text-align: center;
   color: white;
   font-size: 0.75em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 hr {
@@ -70,29 +69,99 @@ hr {
 }
 
 .icons {
-  position: absolute;
+  display: block;
+  padding-left: 1em;
+  padding-bottom: 5em;
 }
 
 .link {
-  display: inline-block;
-  float: left;
   width: 20%;
 }
 
 .behance {
-  display: inline-block;
-  float: left;
   width: 20%;
 }
 
 .insta {
-  display: inline-block;
-  float: left;
   width: 20%;
 }
 
 .twitter {
-  display: inline-block;
-  float: left;
   width: 20%;
+}
+
+@media only screen and (min-width: 28em){
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p{
+    font-size: 1em;
+  }
+
+  .icon {
+    padding-left: 3em;
+  }
+
+  .link {
+    width: 10%;
+  }
+
+  .behance {
+    width: 10%;
+  }
+
+  .insta {
+    width: 10%;
+  }
+
+  .twitter {
+    width: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 48em){
+
+  .name {
+    top: 4em;
+    left: 11em;
+    width: 55%;
+  }
+
+  .background-color {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 40%;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p{
+    font-size: 1em;
+  }
+
+  .icon {
+    padding-left: 3em;
+  }
+
+  .link {
+    width: 10%;
+  }
+
+  .behance {
+    width: 10%;
+  }
+
+  .insta {
+    width: 10%;
+  }
+
+  .twitter {
+    width: 10%;
+  }
+
 }
