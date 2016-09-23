@@ -17,8 +17,9 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
-html {
+.bg-img {
   background-image: url("../images/profile-pic.jpg");
+	width: 100%;
 }
 
 .name {
@@ -69,7 +70,6 @@ hr {
 }
 
 .icons {
-  display: block;
   padding-left: 1em;
   padding-bottom: 5em;
 }
@@ -90,7 +90,7 @@ hr {
   width: 20%;
 }
 
-@media only screen and (min-width: 28em){
+/*media only screen and (min-width: 28em){
 
   h1 {
     font-size: 40px;
@@ -100,10 +100,10 @@ hr {
     font-size: 1em;
   }
 
-  .icon {
+  /*.icon {
     padding-left: 3em;
   }
-
+*/
   .link {
     width: 10%;
   }
@@ -122,7 +122,7 @@ hr {
 
 }
 
-@media only screen and (min-width: 48em){
+/*@media only screen and (min-width: 48em){
 
   .name {
     top: 4em;
@@ -144,7 +144,7 @@ hr {
     font-size: 1em;
   }
 
-  .icon {
+icon {
     padding-left: 3em;
   }
 
