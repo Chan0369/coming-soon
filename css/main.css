@@ -81,6 +81,11 @@ footer {
 .f1 {
   margin: 0;
   padding: 0;
+  color: #5dc3b0;
+}
+
+.f2 {
+  color: #5dc3b0;
 }
 
 @media only screen and (min-width: 28em) {
@@ -90,8 +95,13 @@ footer {
     left: 8em;
   }
 
+  .info {
+    padding-left: 7.5em;
+    padding-right: 7.5em;
+  }
+
   .icons {
-    width: 50%;
+    width: 35%;
     margin: 0;
 	}
 }
@@ -101,6 +111,11 @@ footer {
   .name {
     top: 20em;
     left: 12em;
+  }
+
+  .info {
+    padding-left: 18em;
+    padding-right: 18em;
   }
 
   .icons {
@@ -116,8 +131,13 @@ footer {
     left: 15em;
   }
 
+  .info {
+    padding-left: 36em;
+    padding-right: 36em;
+  }
+
   .icons {
-    width: 50%;
+    width: 20%;
     margin: 0;
   }
 }
