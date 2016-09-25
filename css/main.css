@@ -86,10 +86,12 @@ footer {
   margin: 0;
   padding: 0;
   color: #5dc3b0;
+  font-size: 0.5em;
 }
 
 .f2 {
   color: #5dc3b0;
+  font-size: 0.5em;
 }
 
 @media only screen and (min-width: 28em) {
@@ -110,7 +112,7 @@ footer {
   }
 
   .icons {
-    width: 35%;
+    width: 45%;
     margin: 0;
 	}
 }
